@@ -87,7 +87,7 @@ describe("Gestão de Pedidos", () => {
                     "id": idPedido
                 },
                 headers: { "Content-Type": "application/json" }
-            }).then((response) => {
+            }).should((response) => {
                 expect(response.status).to.eq(200);
                 expect(response.body).is.an("object");
                 expect(response.body).is.not.empty;
@@ -100,11 +100,13 @@ describe("Gestão de Pedidos", () => {
                         "id": idPedido
                     },
                     headers: { "Content-Type": "application/json" }
-                }).then((response) => {
+                }).should((response) => {
                     expect(response.status).to.eq(200);
                     expect(response.body).is.an("object");
                     expect(response.body).is.not.empty;
                     expect(response.body.statusPedido === "PRONTO").to.be.true;
+                }).then((response) => {
+                    cy.log(JSON.stringify(response.body));
                 })
             })
         })

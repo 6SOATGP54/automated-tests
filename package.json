@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "cypress": "^13.13.2"
+  },
+  "dependencies": {
+    "gerador-validador-cpf": "^5.0.2"
+  },
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "lint": "eslint . --fix"
+  }
+}

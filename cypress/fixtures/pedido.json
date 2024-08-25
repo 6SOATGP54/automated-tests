@@ -1,0 +1,10 @@
+{
+    "cliente": 1,
+    "pedidoProdutos": [
+        {
+            "produto": 1,
+            "quantidade": 2
+        }
+    ],
+    "statusPedido": "RECEBIDO"
+}

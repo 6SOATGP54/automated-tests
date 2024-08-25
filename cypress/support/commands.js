@@ -49,3 +49,16 @@ Cypress.Commands.add('atualizarPedido', (idPedido) => {
 		headers: { 'Content-Type': 'application/json' }
 	})
 })
+
+Cypress.Commands.add('cadastrarCliente', (cpf) => {
+	cy.request({
+		method: 'POST',
+		url: '/cliente/cadastroCliente',
+		body: {
+			'cpf': cpf,
+			'nome': 'Cliente de Teste',
+			'email': 'tech-challenge@email.test'
+		},
+		headers: { 'Content-Type': 'application/json' }
+	})
+})

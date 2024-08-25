@@ -1,0 +1,102 @@
+[
+  {
+    "keyword": "Funcionalidade",
+    "name": "API de Cliente",
+    "line": 3,
+    "id": "api-de-cliente",
+    "tags": [],
+    "uri": "cliente.feature",
+    "elements": [
+      {
+        "id": "api-de-cliente;cadastro-de-cliente",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Cadastro de Cliente",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 6,
+            "name": "que gerei um CPF válido",
+            "result": {
+              "status": "passed",
+              "duration": 28000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 7,
+            "name": "a API for chamada com os dados do cliente",
+            "result": {
+              "status": "passed",
+              "duration": 18000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 8,
+            "name": "o cliente deve ser cadastrado com sucesso",
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 9,
+            "name": "a resposta deve conter os dados do cliente cadastrado",
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "api-de-cliente;pesquisar-cliente",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Pesquisar Cliente",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 12,
+            "name": "que possuo o CPF de um cliente cadastrado",
+            "result": {
+              "status": "passed",
+              "duration": 27000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 13,
+            "name": "a API for chamada com o CPF do cliente com sucesso",
+            "result": {
+              "status": "passed",
+              "duration": 15000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 14,
+            "name": "a resposta deve conter os dados do cliente cadastrado",
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

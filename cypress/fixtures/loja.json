@@ -1,0 +1,25 @@
+{
+    "name": "Tech Challenge Filial - SP",
+    "businessHours": [
+        {
+            "dia": "monday",
+            "intervalos": [
+                {
+                    "open": "08:00",
+                    "close": "17:00"
+                }
+            ]
+        }
+    ],
+    "location": {
+        "streetNumber": "3039",
+        "streetName": "Av. Paulista",
+        "cityName": "São Paulo",
+        "stateName": "São Paulo",
+        "latitude": -21.7108032,
+        "longitude": -46.6004147,
+        "reference": "Near to Mercado Pago"
+    },
+    "externalId": "",
+    "credenciaisId": 1
+}

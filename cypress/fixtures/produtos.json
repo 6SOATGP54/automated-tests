@@ -1,0 +1,30 @@
+{
+    "LANCHE": {
+        "nome": "CyLanche",
+        "descricao": "Lanche de teste cadastrado via Automação.",
+        "preco": 29.90,
+        "categoria": "LANCHE",
+        "imagem": "https: //raw.githubusercontent.com/6SOATGP54/tech-challenge/main/docs/products-example/OIG1.jpeg"
+    },
+    "ACOMPANHAMENTO": {
+        "nome": "CyAcompanhamento",
+        "descricao": "Acompanhamento de teste cadastrado via Automação.",
+        "preco": 22.35,
+        "categoria": "ACOMPANHAMENTO",
+        "imagem": "https: //raw.githubusercontent.com/6SOATGP54/tech-challenge/main/docs/products-example/OIG1v94c580_vs.jpeg"
+    },
+    "BEBIDA": {
+        "nome": "CyCola",
+        "descricao": "Bebida de teste cadastrado via Automação.",
+        "preco": 15.10,
+        "categoria": "BEBIDA",
+        "imagem": "https: //raw.githubusercontent.com/6SOATGP54/tech-challenge/main/docs/products-example/OIG3fd09.jpeg"
+    },
+    "SOBREMESA": {
+        "nome": "CyColate",
+        "descricao": "Sobremesa de teste cadastrado via Automação.",
+        "preco": 15.10,
+        "categoria": "SOBREMESA",
+        "imagem": "https: //raw.githubusercontent.com/6SOATGP54/tech-challenge/main/docs/products-example/OIG298mgv_f541.jpeg"
+    }
+}

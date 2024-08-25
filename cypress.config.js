@@ -1,11 +1,13 @@
-const { defineConfig } = require("cypress");
+const { defineConfig } = require('cypress')
+const cucumber = require('cypress-cucumber-preprocessor').default
 
 module.exports = defineConfig({
-  e2e: {
-    baseUrl: "http://localhost:8091/api",
-    setupNodeEvents(on, config) {
-
-      return config;
-    },
-  },
-});
+	e2e: {
+		baseUrl: 'http://localhost:8091/api',
+		specPattern: 'cypress/e2e/**/*.feature',
+		setupNodeEvents(on, config) {
+			on('file:preprocessor', cucumber())
+			return config
+		},
+	},
+})

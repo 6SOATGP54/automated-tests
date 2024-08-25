@@ -24,28 +24,28 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
-Cypress.Commands.add("cadastrarPedido", (cliente, produto, qtdProduto) => {
-    cy.request("POST", "/pedido/cadastroPedido", {
-        "cliente": cliente,
-        "pedidoProdutos": [
-            {
-                "produto": produto,
-                "quantidade": qtdProduto
-            }
-        ],
-        "statusPedido": "RECEBIDO"
-    }).then((response) => {
-        Cypress.env("ID_PEDIDO", response.body.id);
-    })
-});
+Cypress.Commands.add('cadastrarPedido', (cliente, produto, qtdProduto) => {
+	cy.request('POST', '/pedido/cadastroPedido', {
+		'cliente': cliente,
+		'pedidoProdutos': [
+			{
+				'produto': produto,
+				'quantidade': qtdProduto
+			}
+		],
+		'statusPedido': 'RECEBIDO'
+	}).then((response) => {
+		Cypress.env('ID_PEDIDO', response.body.id)
+	})
+})
 
-Cypress.Commands.add("atualizarPedido", (idPedido) => {
-    cy.request({
-        method: "PUT",
-        url: "/pedido/atualizarStatusPedido",
-        body: {
-            "id": idPedido
-        },
-        headers: { "Content-Type": "application/json" }
-    })
-});
+Cypress.Commands.add('atualizarPedido', (idPedido) => {
+	cy.request({
+		method: 'PUT',
+		url: '/pedido/atualizarStatusPedido',
+		body: {
+			'id': idPedido
+		},
+		headers: { 'Content-Type': 'application/json' }
+	})
+})

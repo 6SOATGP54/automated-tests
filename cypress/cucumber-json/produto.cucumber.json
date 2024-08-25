@@ -22,7 +22,7 @@
             "name": "que consultei a lista de produtos",
             "result": {
               "status": "passed",
-              "duration": 65000000
+              "duration": 125000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "a API de produtos for chamada com sucesso",
             "result": {
               "status": "passed",
-              "duration": 19000000
+              "duration": 8000000
             }
           },
           {
@@ -41,9 +41,8 @@
             "line": 8,
             "name": "a lista deve trazer todos os produtos cadastrados",
             "result": {
-              "status": "failed",
-              "duration": 4063000000,
-              "error_message": "AssertionError: Timed out retrying after 4000ms: expected '<!DOCTYPE html>\\n<html class=\"h-full\" lang=\"en-US\" dir=\"ltr\">\\n  <head>\\n    <link rel=\"preload\" href=\"https://cdn.ngrok.com/static/fonts/euclid-square/EuclidSquare-Regular-WebS.woff\" as=\"font\" type=\"font/woff\" crossorigin=\"anonymous\" />\\n    <link rel=\"preload\" href=\"https://cdn.ngrok.com/static/fonts/euclid-square/EuclidSquare-RegularItalic-WebS.woff\" as=\"font\" type=\"font/woff\" crossorigin=\"anonymous\" />\\n    <link rel=\"preload\" href=\"https://cdn.ngrok.com/static/fonts/euclid-square/EuclidSquare-Medium-WebS.woff\" as=\"font\" type=\"font/woff\" crossorigin=\"anonymous\" />\\n    <link rel=\"preload\" href=\"https://cdn.ngrok.com/static/fonts/euclid-square/EuclidSquare-Semibold-WebS.woff\" as=\"font\" type=\"font/woff\" crossorigin=\"anonymous\" />\\n    <link rel=\"preload\" href=\"https://cdn.ngrok.com/static/fonts/euclid-square/EuclidSquare-MediumItalic-WebS.woff\" as=\"font\" type=\"font/woff\" crossorigin=\"anonymous\" />\\n    <link rel=\"preload\" href=\"https://cdn.ngrok.com/static/fonts/ibm-plex-mono/IBMPlexMono-Text.woff\" as=\"font\" type=\"font/woff\" crossorigin=\"anonymous\" />\\n    <link rel=\"preload\" href=\"https://cdn.ngrok.com/static/fonts/ibm-plex-mono/IBMPlexMono-TextItalic.woff\" as=\"font\" type=\"font/woff\" crossorigin=\"anonymous\" />\\n    <link rel=\"preload\" href=\"https://cdn.ngrok.com/static/fonts/ibm-plex-mono/IBMPlexMono-SemiBold.woff\" as=\"font\" type=\"font/woff\" crossorigin=\"anonymous\" />\\n    <link rel=\"preload\" href=\"https://cdn.ngrok.com/static/fonts/ibm-plex-mono/IBMPlexMono-SemiBoldItalic.woff\" as=\"font\" type=\"font/woff\" crossorigin=\"anonymous\" />\\n    <meta charset=\"utf-8\">\\n    <meta name=\"author\" content=\"ngrok\">\\n    <meta name=\"description\" content=\"ngrok is the fastest way to put anything on the internet with a single command.\">\\n    <meta name=\"robots\" content=\"noindex, nofollow\">\\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\\n    <link id=\"style\" rel=\"stylesheet\" href=\"https://cdn.ngrok.com/static/css/error.css\">\\n    <noscript>You are about to visit 2de6-186-220-40-123.ngrok-free.app, served by 186.220.40.123. This website is served for free through ngrok.com. You should only visit this website if you trust whoever sent the link to you. (ERR_NGROK_6024)</noscript>\\n    <script id=\"script\" src=\"https://cdn.ngrok.com/static/js/error.js\" type=\"text/javascript\"></script>\\n  </head>\\n  <body class=\"h-full\" id=\"ngrok\">\\n    <div id=\"root\" data-payload=\"eyJjZG5CYXNlIjoiaHR0cHM6Ly9jZG4ubmdyb2suY29tLyIsImNvZGUiOiI2MDI0IiwiaG9zdHBvcnQiOiIyZGU2LTE4Ni0yMjAtNDAtMTIzLm5ncm9rLWZyZWUuYXBwIiwibWVzc2FnZSI6IllvdSBhcmUgYWJvdXQgdG8gdmlzaXQgMmRlNi0xODYtMjIwLTQwLTEyMy5uZ3Jvay1mcmVlLmFwcCwgc2VydmVkIGJ5IDE4Ni4yMjAuNDAuMTIzLiBUaGlzIHdlYnNpdGUgaXMgc2VydmVkIGZvciBmcmVlIHRocm91Z2ggbmdyb2suY29tLiBZb3Ugc2hvdWxkIG9ubHkgdmlzaXQgdGhpcyB3ZWJzaXRlIGlmIHlvdSB0cnVzdCB3aG9ldmVyIHNlbnQgdGhlIGxpbmsgdG8geW91LiIsInNlcnZpbmdJUCI6IjE4Ni4yMjAuNDAuMTIzIiwidGl0bGUiOiJPSyJ9\"></div>\\n  </body>\\n</html>\\n' to be an array\n    at Context.eval (cypress/support/step-definitions/produto.cy.js:16:3)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+              "status": "passed",
+              "duration": 10000000
             }
           }
         ]
@@ -63,7 +62,7 @@
             "name": "que consultei a lista de produtos com desconto",
             "result": {
               "status": "passed",
-              "duration": 140000000
+              "duration": 88000000
             }
           },
           {
@@ -73,7 +72,7 @@
             "name": "a API de produtos for chamada com sucesso",
             "result": {
               "status": "passed",
-              "duration": 8000000
+              "duration": 4000000
             }
           },
           {
@@ -83,7 +82,7 @@
             "name": "a lista deve trazer todos os produtos cadastrados",
             "result": {
               "status": "passed",
-              "duration": 13000000
+              "duration": 9000000
             }
           }
         ]
@@ -103,7 +102,7 @@
             "name": "que consultei a lista de 'LANCHE'",
             "result": {
               "status": "passed",
-              "duration": 77000000
+              "duration": 83000000
             }
           },
           {
@@ -123,7 +122,7 @@
             "name": "a lista de produtos deve conter somente 'LANCHE'",
             "result": {
               "status": "passed",
-              "duration": 7000000
+              "duration": 10000000
             }
           }
         ]
@@ -143,7 +142,7 @@
             "name": "que consultei a lista de 'ACOMPANHAMENTO'",
             "result": {
               "status": "passed",
-              "duration": 69000000
+              "duration": 57000000
             }
           },
           {
@@ -153,7 +152,7 @@
             "name": "a API de produtos for chamada com sucesso",
             "result": {
               "status": "passed",
-              "duration": 4000000
+              "duration": 5000000
             }
           },
           {
@@ -163,7 +162,7 @@
             "name": "a lista de produtos deve conter somente 'ACOMPANHAMENTO'",
             "result": {
               "status": "passed",
-              "duration": 7000000
+              "duration": 9000000
             }
           }
         ]
@@ -183,7 +182,7 @@
             "name": "que consultei a lista de 'BEBIDA'",
             "result": {
               "status": "passed",
-              "duration": 67000000
+              "duration": 58000000
             }
           },
           {
@@ -193,7 +192,7 @@
             "name": "a API de produtos for chamada com sucesso",
             "result": {
               "status": "passed",
-              "duration": 4000000
+              "duration": 6000000
             }
           },
           {
@@ -203,7 +202,7 @@
             "name": "a lista de produtos deve conter somente 'BEBIDA'",
             "result": {
               "status": "passed",
-              "duration": 8000000
+              "duration": 10000000
             }
           }
         ]
@@ -223,7 +222,7 @@
             "name": "que consultei a lista de 'SOBREMESA'",
             "result": {
               "status": "passed",
-              "duration": 68000000
+              "duration": 51000000
             }
           },
           {
@@ -233,7 +232,7 @@
             "name": "a API de produtos for chamada com sucesso",
             "result": {
               "status": "passed",
-              "duration": 4000000
+              "duration": 5000000
             }
           },
           {
@@ -243,7 +242,7 @@
             "name": "a lista de produtos deve conter somente 'SOBREMESA'",
             "result": {
               "status": "passed",
-              "duration": 7000000
+              "duration": 8000000
             }
           }
         ]
@@ -263,7 +262,7 @@
             "name": "que cadastrei um produto do tipo 'LANCHE'",
             "result": {
               "status": "passed",
-              "duration": 69000000
+              "duration": 75000000
             }
           },
           {
@@ -273,7 +272,7 @@
             "name": "a API de produtos for chamada com sucesso",
             "result": {
               "status": "passed",
-              "duration": 4000000
+              "duration": 5000000
             }
           },
           {
@@ -283,7 +282,7 @@
             "name": "a resposta deve conter os dados do produto cadastrado",
             "result": {
               "status": "passed",
-              "duration": 6000000
+              "duration": 7000000
             }
           }
         ]
@@ -303,7 +302,7 @@
             "name": "que cadastrei um produto do tipo 'ACOMPANHAMENTO'",
             "result": {
               "status": "passed",
-              "duration": 65000000
+              "duration": 56000000
             }
           },
           {
@@ -313,7 +312,7 @@
             "name": "a API de produtos for chamada com sucesso",
             "result": {
               "status": "passed",
-              "duration": 4000000
+              "duration": 5000000
             }
           },
           {
@@ -323,7 +322,7 @@
             "name": "a resposta deve conter os dados do produto cadastrado",
             "result": {
               "status": "passed",
-              "duration": 6000000
+              "duration": 7000000
             }
           }
         ]
@@ -343,7 +342,7 @@
             "name": "que cadastrei um produto do tipo 'BEBIDA'",
             "result": {
               "status": "passed",
-              "duration": 90000000
+              "duration": 54000000
             }
           },
           {
@@ -353,7 +352,7 @@
             "name": "a API de produtos for chamada com sucesso",
             "result": {
               "status": "passed",
-              "duration": 14000000
+              "duration": 5000000
             }
           },
           {
@@ -363,7 +362,7 @@
             "name": "a resposta deve conter os dados do produto cadastrado",
             "result": {
               "status": "passed",
-              "duration": 11000000
+              "duration": 7000000
             }
           }
         ]
@@ -383,7 +382,7 @@
             "name": "que cadastrei um produto do tipo 'SOBREMESA'",
             "result": {
               "status": "passed",
-              "duration": 80000000
+              "duration": 46000000
             }
           },
           {
@@ -393,7 +392,7 @@
             "name": "a API de produtos for chamada com sucesso",
             "result": {
               "status": "passed",
-              "duration": 12000000
+              "duration": 5000000
             }
           },
           {
@@ -403,7 +402,7 @@
             "name": "a resposta deve conter os dados do produto cadastrado",
             "result": {
               "status": "passed",
-              "duration": 10000000
+              "duration": 6000000
             }
           }
         ]
@@ -422,8 +421,8 @@
             "line": 56,
             "name": "que possuo um produto cadastrado",
             "result": {
-              "status": "failed",
-              "error_message": "AssertionError: Timed out retrying after 4000ms: expected '<!DOCTYPE html>\\n<html class=\"h-full\" lang=\"en-US\" dir=\"ltr\">\\n  <head>\\n    <link rel=\"preload\" href=\"https://cdn.ngrok.com/static/fonts/euclid-square/EuclidSquare-Regular-WebS.woff\" as=\"font\" type=\"font/woff\" crossorigin=\"anonymous\" />\\n    <link rel=\"preload\" href=\"https://cdn.ngrok.com/static/fonts/euclid-square/EuclidSquare-RegularItalic-WebS.woff\" as=\"font\" type=\"font/woff\" crossorigin=\"anonymous\" />\\n    <link rel=\"preload\" href=\"https://cdn.ngrok.com/static/fonts/euclid-square/EuclidSquare-Medium-WebS.woff\" as=\"font\" type=\"font/woff\" crossorigin=\"anonymous\" />\\n    <link rel=\"preload\" href=\"https://cdn.ngrok.com/static/fonts/euclid-square/EuclidSquare-Semibold-WebS.woff\" as=\"font\" type=\"font/woff\" crossorigin=\"anonymous\" />\\n    <link rel=\"preload\" href=\"https://cdn.ngrok.com/static/fonts/euclid-square/EuclidSquare-MediumItalic-WebS.woff\" as=\"font\" type=\"font/woff\" crossorigin=\"anonymous\" />\\n    <link rel=\"preload\" href=\"https://cdn.ngrok.com/static/fonts/ibm-plex-mono/IBMPlexMono-Text.woff\" as=\"font\" type=\"font/woff\" crossorigin=\"anonymous\" />\\n    <link rel=\"preload\" href=\"https://cdn.ngrok.com/static/fonts/ibm-plex-mono/IBMPlexMono-TextItalic.woff\" as=\"font\" type=\"font/woff\" crossorigin=\"anonymous\" />\\n    <link rel=\"preload\" href=\"https://cdn.ngrok.com/static/fonts/ibm-plex-mono/IBMPlexMono-SemiBold.woff\" as=\"font\" type=\"font/woff\" crossorigin=\"anonymous\" />\\n    <link rel=\"preload\" href=\"https://cdn.ngrok.com/static/fonts/ibm-plex-mono/IBMPlexMono-SemiBoldItalic.woff\" as=\"font\" type=\"font/woff\" crossorigin=\"anonymous\" />\\n    <meta charset=\"utf-8\">\\n    <meta name=\"author\" content=\"ngrok\">\\n    <meta name=\"description\" content=\"ngrok is the fastest way to put anything on the internet with a single command.\">\\n    <meta name=\"robots\" content=\"noindex, nofollow\">\\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\\n    <link id=\"style\" rel=\"stylesheet\" href=\"https://cdn.ngrok.com/static/css/error.css\">\\n    <noscript>You are about to visit 2de6-186-220-40-123.ngrok-free.app, served by 186.220.40.123. This website is served for free through ngrok.com. You should only visit this website if you trust whoever sent the link to you. (ERR_NGROK_6024)</noscript>\\n    <script id=\"script\" src=\"https://cdn.ngrok.com/static/js/error.js\" type=\"text/javascript\"></script>\\n  </head>\\n  <body class=\"h-full\" id=\"ngrok\">\\n    <div id=\"root\" data-payload=\"eyJjZG5CYXNlIjoiaHR0cHM6Ly9jZG4ubmdyb2suY29tLyIsImNvZGUiOiI2MDI0IiwiaG9zdHBvcnQiOiIyZGU2LTE4Ni0yMjAtNDAtMTIzLm5ncm9rLWZyZWUuYXBwIiwibWVzc2FnZSI6IllvdSBhcmUgYWJvdXQgdG8gdmlzaXQgMmRlNi0xODYtMjIwLTQwLTEyMy5uZ3Jvay1mcmVlLmFwcCwgc2VydmVkIGJ5IDE4Ni4yMjAuNDAuMTIzLiBUaGlzIHdlYnNpdGUgaXMgc2VydmVkIGZvciBmcmVlIHRocm91Z2ggbmdyb2suY29tLiBZb3Ugc2hvdWxkIG9ubHkgdmlzaXQgdGhpcyB3ZWJzaXRlIGlmIHlvdSB0cnVzdCB3aG9ldmVyIHNlbnQgdGhlIGxpbmsgdG8geW91LiIsInNlcnZpbmdJUCI6IjE4Ni4yMjAuNDAuMTIzIiwidGl0bGUiOiJPSyJ9\"></div>\\n  </body>\\n</html>\\n' to be an array\n    at Context.eval (cypress/support/step-definitions/produto.cy.js:75:3)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+              "status": "passed",
+              "duration": 51000000
             }
           },
           {
@@ -432,7 +431,8 @@
             "line": 57,
             "name": "a API de exclusão for chamada",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 41000000
             }
           },
           {
@@ -441,7 +441,8 @@
             "line": 58,
             "name": "o produto deve ser excluído com sucesso",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 22000000
             }
           }
         ]

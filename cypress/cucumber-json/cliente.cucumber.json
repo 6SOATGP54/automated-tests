@@ -22,7 +22,7 @@
             "name": "que gerei um CPF válido",
             "result": {
               "status": "passed",
-              "duration": 28000000
+              "duration": 63000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "a API for chamada com os dados do cliente",
             "result": {
               "status": "passed",
-              "duration": 18000000
+              "duration": 86000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "o cliente deve ser cadastrado com sucesso",
             "result": {
               "status": "passed",
-              "duration": 5000000
+              "duration": 9000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "a resposta deve conter os dados do cliente cadastrado",
             "result": {
               "status": "passed",
-              "duration": 7000000
+              "duration": 8000000
             }
           }
         ]
@@ -72,7 +72,7 @@
             "name": "que possuo o CPF de um cliente cadastrado",
             "result": {
               "status": "passed",
-              "duration": 27000000
+              "duration": 36000000
             }
           },
           {
@@ -82,7 +82,7 @@
             "name": "a API for chamada com o CPF do cliente com sucesso",
             "result": {
               "status": "passed",
-              "duration": 15000000
+              "duration": 85000000
             }
           },
           {
@@ -92,7 +92,7 @@
             "name": "a resposta deve conter os dados do cliente cadastrado",
             "result": {
               "status": "passed",
-              "duration": 7000000
+              "duration": 8000000
             }
           }
         ]

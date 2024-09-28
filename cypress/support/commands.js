@@ -62,3 +62,17 @@ Cypress.Commands.add('cadastrarCliente', (cpf) => {
 		headers: { 'Content-Type': 'application/json' }
 	})
 })
+
+Cypress.Commands.add('getApiToken', () => {
+	cy.request({
+		method: 'POST',
+		url: `${Cypress.env('API_TOKEN_URL')}/food-api-autenticacao/login`,
+		body: {
+			'usuario': Cypress.env('API_TOKEN_USER'),
+			'senha': Cypress.env('API_TOKEN_SECRET')
+		}
+	}).then((response) => {
+		Cypress.env('API_TOKEN', response.body['response'])
+		cy.log(Cypress.env('API_TOKEN'))
+	})
+})

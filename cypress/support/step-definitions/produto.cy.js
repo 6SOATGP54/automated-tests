@@ -1,9 +1,19 @@
 /// <reference types="cypress" />
 
-const { Given, Then, When } = require('cypress-cucumber-preprocessor/steps')
+const { Given, Then, When, Before } = require('cypress-cucumber-preprocessor/steps')
+
+Before(() => {
+	cy.getApiToken()
+})
 
 Given('que consultei a lista de produtos', () => {
-	cy.request('GET', '/produto/listarProdutos').as('response')
+	cy.request({
+		method: 'GET',
+		url: '/produto/listarProdutos',
+		headers: {
+			Authorization: `Bearer ${Cypress.env('API_TOKEN')}`
+		}
+	}).as('response')
 })
 
 When('a API de produtos for chamada com sucesso', () => {

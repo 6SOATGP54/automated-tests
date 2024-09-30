@@ -3,9 +3,9 @@ name: Food-app - End-to-end Tests
 on: push
 
 env:
-  API_TOKEN_USER: ${{ secrets.API_TOKEN_USER }}
-  API_TOKEN_SECRET: ${{ secrets.API_TOKEN_SECRET }}
-  API_TOKEN_URL: ${{ vars.API_TOKEN_URL }}
+  API_GTW_TOKEN_USER: ${{ secrets.API_GTW_TOKEN_USER }}
+  API_GTW_TOKEN_SECRET: ${{ secrets.API_GTW_TOKEN_SECRET }}
+  API_GTW_TOKEN_URL: ${{ vars.API_GTW_TOKEN_URL }}
   CYPRESS_BASE_URL: ${{ vars.CYPRESS_BASE_URL }}
   MERCADO_PAGO_TOKEN: ${{ secrets.MERCADO_PAGO_TOKEN }}
   MERCADO_PAGO_USUARIO: ${{ secrets.MERCADO_PAGO_USUARIO }}

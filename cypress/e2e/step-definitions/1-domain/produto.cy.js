@@ -1,18 +1,11 @@
 /// <reference types="cypress" />
 
-const { Given, Then, When, Before } = require('cypress-cucumber-preprocessor/steps')
-
-Before(() => {
-	cy.getApiToken()
-})
+const { Given, Then, When } = require('cypress-cucumber-preprocessor/steps')
 
 Given('que consultei a lista de produtos', () => {
 	cy.request({
 		method: 'GET',
-		url: '/produto/listarProdutos',
-		headers: {
-			Authorization: `Bearer ${Cypress.env('API_TOKEN')}`
-		}
+		url: '/produto/listarProdutos'
 	}).as('response')
 })
 
@@ -31,8 +24,15 @@ Then('a lista deve trazer todos os produtos cadastrados', () => {
 })
 
 Given('que consultei a lista de produtos com desconto', () => {
-	cy.request('POST', '/produto/listarProdutosDesconto', {
-		'id': 1
+	cy.request({
+		method: 'POST', 
+		url: '/produto/listarProdutosDesconto',
+		headers: {
+			Authorization: `Bearer ${Cypress.env('API_GTW_TOKEN')}`
+		},
+		body: {
+			'id': 1
+		}
 	}).as('response')
 })
 

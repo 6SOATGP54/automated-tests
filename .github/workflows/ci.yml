@@ -1,24 +1,30 @@
-name: Food-app - End-to-end Tests
+# name: Food-app - End-to-end Tests
 
-on: push
+####################################################################
+######### Deploy automático desabilitado temporariamente   #########
+######### para evolução do trabalho com o tech-challenge-4 #########
+#########            (evitar custos com a AWS)             #########
+####################################################################
 
-env:
-  API_GTW_TOKEN_USER: ${{ secrets.API_GTW_TOKEN_USER }}
-  API_GTW_TOKEN_SECRET: ${{ secrets.API_GTW_TOKEN_SECRET }}
-  API_GTW_TOKEN_URL: ${{ vars.API_GTW_TOKEN_URL }}
-  CYPRESS_BASE_URL: ${{ vars.CYPRESS_BASE_URL }}
-  MERCADO_PAGO_TOKEN: ${{ secrets.MERCADO_PAGO_TOKEN }}
-  MERCADO_PAGO_USUARIO: ${{ secrets.MERCADO_PAGO_USUARIO }}
-  APP_WEBHOOK: ${{ vars.APP_WEBHOOK }}
+# on: push
+
+# env:
+#   API_GTW_TOKEN_USER: ${{ secrets.API_GTW_TOKEN_USER }}
+#   API_GTW_TOKEN_SECRET: ${{ secrets.API_GTW_TOKEN_SECRET }}
+#   API_GTW_TOKEN_URL: ${{ vars.API_GTW_TOKEN_URL }}
+#   CYPRESS_BASE_URL: ${{ vars.CYPRESS_BASE_URL }}
+#   MERCADO_PAGO_TOKEN: ${{ secrets.MERCADO_PAGO_TOKEN }}
+#   MERCADO_PAGO_USUARIO: ${{ secrets.MERCADO_PAGO_USUARIO }}
+#   APP_WEBHOOK: ${{ vars.APP_WEBHOOK }}
 
 
-jobs:
-  cypress-run:
-    runs-on: ubuntu-22.04
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      # Install npm dependencies, cache them correctly
-      # and run all Cypress tests
-      - name: Cypress run
-        uses: cypress-io/github-action@v6
+# jobs:
+#   cypress-run:
+#     runs-on: ubuntu-22.04
+#     steps:
+#       - name: Checkout
+#         uses: actions/checkout@v4
+#       # Install npm dependencies, cache them correctly
+#       # and run all Cypress tests
+#       - name: Cypress run
+#         uses: cypress-io/github-action@v6

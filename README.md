@@ -14,10 +14,7 @@ Todas as APIs do [Tech Challenge](https://github.com/6SOATGP54/tech-challenge) s
 
 # Domínios
 
-O projeto de automação testa três domínios da aplicação:
-1. Cliente
-2. Pedido
-3. Produto
+O projeto de automação testa o domínio de produto.
 
 O teste funcional é descrito em alto nível seguindo o padrão de escrita _Gherkin_ do _Behavior Driven Development_ (BDD).
 
